@@ -158,14 +158,16 @@ a.socialicon {
   width: var(--link-size);
   height: var(--link-size);
   position: absolute;
+  background-color: #41aff3;
   transform: translate(0, var(--link-size));
   border-radius: 50%;
   transition: var(--trans-props);
+  z-index: -1;
 
 }
 
 .socialicon.kaggle:after {
-  background-color: #41aff3;
+
   box-shadow: var(--kaggle);
 }
 
